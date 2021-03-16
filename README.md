@@ -22,7 +22,7 @@ cache.set(obj, 'cache-key'); // set the cache
 // cache that exists
 cache.get('cache-key'); // return obj
 
-// cache that doesn't exists or after timeout
+// cache that doesn't exists
 cache.get('cache'); // return undefined
 ```
 
