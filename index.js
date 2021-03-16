@@ -33,4 +33,5 @@ class cache{
      */
     get = (key) => this._cache[key];
 }
+
 module.exports = cache;
