@@ -4,7 +4,7 @@ The smallest cache library that actually works.\
 
 ## Installation
 
-Current stable version: `1.x`
+Current stable version: `1.0`
 
 ```
 $ npm install tabby-cache
