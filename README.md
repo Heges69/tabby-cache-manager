@@ -1,5 +1,5 @@
 # tabby-cache
-The smallest cache library that actually works.
+The smallest cache library that actually works. \
 `37` lines of code, `0` dependencies
 
 ## Installation
