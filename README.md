@@ -22,8 +22,17 @@ cache.get('cache'); // return undefined
 
 *Example:*
 ```js
-const myObj = { name: 'Tabby', description: 'bot' };
-cache.set(myObj, 'user-data');
+const TabbyCache = require('tabby-cache');
+const cache = new TabbyCache(300);
+const fetch = require('node-fetch');
 
-cache.get('user-data'); // return { name: 'Tabby', description: 'bot' };
+async function TabbyApi() {
+    const getCache = cache.get('tabby-api');
+    if (getCache == undefined) {
+        const { users, servers } = await fetch('https://api.tabbybot.eu/').then(res => res.json());
+        cache.set(users, 'tabby-api');
+    } else {
+        cache.get('tabby-api');
+    };
+};
 ```
