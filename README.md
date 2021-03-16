@@ -2,7 +2,14 @@
 The smallest cache library that actually works.\
 `37` lines of code, `0` dependencies.
 
-Install: `npm install tabby-cache`
+## Installation
+
+
+Current stable version: `1.x`
+
+```
+$ npm install node-fetch
+```
 
 ## Usage
 
