@@ -6,7 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heges69/tabby-cache-manager.git"
+  },
   "keywords": ["cache", "Caching", "Performance"],
   "author": "heges",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/Heges69/tabby-cache-manager"
 }
