@@ -14,10 +14,10 @@ const obj = 'object'; // string, number, boolean, object, array
 cache.set(obj, 'cache-key'); // set the cache
 
 // cache that exists
-cache.get('cache-key') // return obj
+cache.get('cache-key'); // return obj
 
 // cache that doesn't exists or after timeout
-cache.get('cache') // return undenifed
+cache.get('cache'); // return undefined
 ```
 
 *Example:*
